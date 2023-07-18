@@ -3,7 +3,7 @@ body {
 }
 
 .navbar {
-  height: 68px;
+  display: flex;
   background-color: rebeccapurple;
 }
 
@@ -12,9 +12,14 @@ body {
 }
 
 .navbar__items__container {
+  display: flex;
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.navbar__item {
+  padding: 12px 24px;
 }
 
 .navbar__logo {
