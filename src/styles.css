@@ -4,11 +4,19 @@ body {
 
 .navbar {
   display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1140px;
+  width: 100%;
   background-color: rebeccapurple;
 }
 
 .navbar__items {
-  background-color: aquamarine;
+  display: flex;
+  flex: 1 1 33.33%;
+  align-items: center;
+  justify-content: flex-start;
+  color: #e4e4e4;
 }
 
 .navbar__items__container {
@@ -19,15 +27,22 @@ body {
 }
 
 .navbar__item {
-  padding: 12px 24px;
+  padding: 8px 16px;
 }
 
 .navbar__logo {
-  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
 }
 
 .navbar__order {
-  background-color: bisque;
+  display: flex;
+  flex: 1 1 33.33%;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 16px;
 }
 
 .navbar__order__button {
@@ -35,5 +50,35 @@ body {
   border: none;
   border-radius: 24px;
   background-color:rgba(133,133,133,.36);
+  color: #e4e4e4;
+}
 
+.hero-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 720px;
+  background-image: url("./img/hero-banner.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-banner__headline {
+  color: #e4e4e4;
+}
+
+.hero-banner__headline__h1 {
+  color: green;
+}
+
+.hero-banner__headline__h3 {
+  color: red;
+}
+
+.hero-banner__headline__h4 {
+  color: blue;
+}
+
+.funnytails {
+  font-family: 'Montserrat', sans-serif;
 }
