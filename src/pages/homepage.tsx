@@ -1,5 +1,12 @@
+import { HeroBanner, Navbar } from '../components';
+
 export const HomePage = () => {
   return (
-    <div>Homepage</div>
+    <div>
+      <Navbar/>
+      <HeroBanner/>
+    
+      Homepage
+      </div>
   );
 };

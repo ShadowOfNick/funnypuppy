@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { AnorherPage, HomePage } from './pages';
-import './styles/App.scss';
+import './styles/main.scss';
 
 const App = () => {
   return (
